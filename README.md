@@ -1,41 +1,36 @@
-# Project Title
+# Markdown Cheatsheet
 
-A brief description of your project, its purpose, and features.
+## Headings
+# H1 Heading
+## H2 Heading
+### H3 Heading
+#### H4 Heading
+##### H5 Heading
+###### H6 Heading
 
-## Table of Contents
+## Text Formatting
+**This is bold**  
+__This is also bold__  
+*This is italic*  
+_This is also italic_  
+~~This is strikethrough~~
 
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Lists
+1. Item one  
+2. Item two  
+3. Item three  
+- Item one  
+- Item two  
+  - Sub-item  
+- Item three  
 
-## About
+## Links
+[OpenAI](https://www.openai.com)
 
-Explain the purpose of the project and its benefits.  
-Provide an overview of its functionality.
+## Images
+![OpenAI logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png)
 
-## Getting Started
-
-### Prerequisites
-
-List the tools and dependencies needed to run the project:
-
-- [Example Tool](https://example.com)
-- Node.js
-- Python 3.8+
-
-### Installation
-
-Step-by-step guide on installing the project:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/project-name.git
-
-# Navigate into the directory
-cd project-name
-
-# Install dependencies
-npm install
+## Code
+Use `code` for inline code.  
+```python
+print("Hello, world!")
